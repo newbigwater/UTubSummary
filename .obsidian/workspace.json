@@ -1,0 +1,311 @@
+{
+  "main": {
+    "id": "4bed5127452528ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "527914449fc9e3cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d514968f48929134",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "558b26de04bb99ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "adc900ba988b79ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75adc1a8590f77c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "eca3560dcc178bb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "npm",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "60720c8d6b6dd21e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330.5
+  },
+  "right": {
+    "id": "1d8aaf53ddb5f905",
+    "type": "split",
+    "children": [
+      {
+        "id": "f621ef8ad50c4551",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9310dd5895fef6d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "56b872b15fe70e9e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Readme.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Readme"
+            }
+          },
+          {
+            "id": "0287b83af77f3490",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "52f8e20941a2c55a",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "00. System/00.01. Template/10. Update-MOC.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for 10. Update-MOC"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "a76a9b61d64d6354",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcb15120884b273e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00. System/00.01. Template/10. Update-MOC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 10. Update-MOC"
+            }
+          },
+          {
+            "id": "7cb770e66a7efc72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "language/_MOC_.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from _MOC_"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b0e8089076c21a76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8acff58237de7c6",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "00. System/00.01. Template/10. Update-MOC.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5087618855792593,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 10. Update-MOC"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 615.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "d514968f48929134",
+  "lastOpenFiles": [
+    "00. attachments/Pasted image 20250525184330.png",
+    "README.md",
+    "00. attachments",
+    "00. attachments/Pasted image 20250525184212.png",
+    "src/README.md",
+    "00. attachments/Pasted image 20250525184238.png",
+    "00. attachments/Pasted image 20250525113911.png",
+    "00. attachments/Pasted image 20250525113735.png",
+    "require/database.md",
+    "require/firebase_setup_guide.md",
+    "require/prd.md",
+    "node_modules/resolve-url-loader/docs/join-function/index.js",
+    "node_modules/resolve-url-loader/docs/join-function",
+    "00. attachments",
+    "development/AI/Cursor AI/Vibe coding bible/Part 04. Chrome으로 YouTube 요약/_MOC_.md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 04. Chrome으로 YouTube 요약/01. Chrome Structure.md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 04. Chrome으로 YouTube 요약/Untitled.md",
+    "development/AI/Cursor AI/Vibe coding bible/_MOC_.md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 04. Chrome으로 YouTube 요약",
+    "development/AI/Cursor AI/Vibe coding bible/Untitled.md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 02. To-do List/03. Firebase Setting.md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 02. To-do List/00. attachments/Pasted image 20250525105314.png",
+    "development/AI/Cursor AI/Vibe coding bible/Part 02. To-do List/00. attachments/Pasted image 20250525105300.png",
+    "development/AI/Cursor AI/Vibe coding bible/Part 02. To-do List/00. attachments/Pasted image 20250525105213.png",
+    "development/AI/Cursor AI/Vibe coding bible/Part 02. To-do List/00. attachments/Pasted image 20250525105149.png",
+    "improvements/Design/UML/Class Relationship/Class Relationship.md",
+    "improvements/Design/DesignPattern/헤드 퍼스트 디자인 패턴/Chapter 03. 객체 꾸미기/Chapter 03. 객체 꾸미기.md",
+    "improvements/Mind Control/하루 한장 고전 수업/Daily/09월/09월.md",
+    "improvements/Mind Control/하루 한장 고전 수업/Daily/09월/10월.md",
+    "improvements/Mind Control/하루 한장 고전 수업/Daily/09월/10월 (유니코드 인코딩 충돌).md",
+    "improvements/Mind Control/하루 한장 고전 수업/Daily/09월/09월 (유니코드 인코딩 충돌).md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 02. To-do List/02. SRS 작성.md",
+    "development/Programming/C#/제프리 리처의 CLR via C#/24장. 런타임 Serialization/24장. 런타임 Serialization.md",
+    "development/Programming/C#/제프리 리처의 CLR via C#/24장. 런타임 Serialization/Section 00. 용어정리.md",
+    "development/Programming/C#/제프리 리처의 CLR via C#/24장. 런타임 Serialization/Section 01. Serialization-Deserialization 쾌속 시작.md",
+    "development/Programming/C#/제프리 리처의 CLR via C#/제프리 리처의 CLR via C.md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 01. 입문/03. SRS.md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 01. 입문/02. Preparing of Development.md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 01. 입문/04. Web App 개발.md",
+    "development/AI/Cursor AI/Vibe coding bible/Part 02. To-do List/00. attachments/Pasted image 20250521205511.png",
+    "development/AI/Cursor AI/Vibe coding bible/Part 01. 입문/00. attachments/Pasted image 20250521000634.png",
+    "development/Framework/Java/Spring/스프링의 정석/02. Spring MVC/02.10. Redirect & Forward/attachments/Untitled.png~RF593bda5.TMP",
+    "development/Framework/Java/Spring/스프링의 정석/02. Spring MVC/02.08. 회원 가입 화면 작성/attachments/Untitled 7.png~RF593b78b.TMP",
+    "development/Framework/Java/Spring/스프링의 정석/02. Spring MVC/02.06. Servlet & JSP/attachments/Untitled 17.png~RF593b067.TMP",
+    "development/Framework/Java/Spring/스프링의 정석/02. Spring MVC/02.06. Servlet & JSP/attachments/Untitled 24.png~RF593ae82.TMP",
+    "development/Framework/Java/Spring/스프링의 정석/02. Spring MVC/02.06. Servlet & JSP/attachments/Untitled 26.png~RF593adf6.TMP",
+    "Factory Automation/Battery/Basic/2차전지 배터리 Cell.canvas",
+    "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
+    "Untitled.canvas",
+    "Brain/무제 파일.canvas"
+  ]
+}

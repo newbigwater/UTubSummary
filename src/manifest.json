@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Summary",
+  "version": "1.0",
+  "description": "Summarize YouTube videos via webhook.",
+  "permissions": ["activeTab", "tabs", "windows", "storage"],
+  "host_permissions": ["https://*/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.txt",
+      "48": "icons/icon48.txt",
+      "128": "icons/icon128.txt"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["*://*.youtube.com/*"],
+    "js": ["content.js"]
+  }],
+  "web_accessible_resources": [{
+    "resources": ["summary.html", "summary.js", "options.html", "options.js"],
+    "matches": ["<all_urls>"]
+  }]
+} 

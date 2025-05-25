@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Summary</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <style>
+    .settings-link {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 12px;
+    }
+    
+    .settings-link a {
+      color: #c00;
+      text-decoration: none;
+    }
+    
+    .settings-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube 영상 요약</h1>
+    <button id="summarizeBtn">요약하기</button>
+    <div id="loadingIndicator" class="hidden">요약 중...</div>
+    <div id="result" class="result hidden"></div>
+    <div id="error" class="error hidden"></div>
+    <div class="settings-link">
+      <a id="optionsLink" href="#">설정</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

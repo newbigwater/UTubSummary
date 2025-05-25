@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube 영상 요약 결과</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    
+    .container {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      transition: all 0.3s ease;
+    }
+    
+    h1 {
+      color: #c00;
+      margin-top: 0;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+      font-size: 24px;
+      text-align: center;
+    }
+    
+    .video-info {
+      display: flex;
+      margin-bottom: 25px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .video-thumbnail {
+      width: 200px;
+      height: 120px;
+      margin-right: 20px;
+      background-color: #eee;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+    
+    .video-thumbnail:hover {
+      transform: scale(1.03);
+    }
+    
+    .video-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #333;
+      line-height: 1.4;
+    }
+    
+    .video-url {
+      color: #666;
+      font-size: 14px;
+      word-break: break-all;
+      max-width: 550px;
+    }
+    
+    .summary-title {
+      font-size: 18px;
+      margin: 25px 0 15px;
+      color: #c00;
+      font-weight: bold;
+      padding-left: 10px;
+      border-left: 3px solid #c00;
+    }
+    
+    .summary-content {
+      line-height: 1.8;
+      padding: 15px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: #666;
+      font-style: italic;
+      position: relative;
+    }
+    
+    .loading:after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 40px;
+      border: 5px solid #ddd;
+      border-top-color: #c00;
+      border-radius: 50%;
+      margin: 20px auto 0;
+      animation: spin 1s infinite linear;
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .error {
+      color: #c00;
+      background-color: #fff0f0;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #ffcccc;
+      margin: 20px 0;
+      text-align: center;
+    }
+    
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+    }
+    
+    /* 모바일 반응형 */
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+      
+      .container {
+        padding: 15px;
+      }
+      
+      .video-info {
+        flex-direction: column;
+      }
+      
+      .video-thumbnail {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube 영상 요약</h1>
+    
+    <div id="loading" class="loading">
+      요약을 불러오는 중입니다...
+    </div>
+    
+    <div id="content" style="display: none;">
+      <div class="video-info">
+        <div class="video-thumbnail" id="thumbnail"></div>
+        <div>
+          <div class="video-title" id="videoTitle">영상 제목</div>
+          <div class="video-url" id="videoUrl"></div>
+        </div>
+      </div>
+      
+      <div class="summary-title">요약 내용</div>
+      <div class="summary-content" id="summary"></div>
+    </div>
+    
+    <div id="error" class="error" style="display: none;">
+      오류가 발생했습니다.
+    </div>
+    
+    <div class="footer">
+      YouTube Summary Extension - 실시간 영상 요약 서비스
+    </div>
+  </div>
+
+  <script src="summary.js"></script>
+</body>
+</html> 
